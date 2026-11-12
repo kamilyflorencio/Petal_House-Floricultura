@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Petal House — flores, plantas e presentes escolhidos com carinho." name="description" />
+    <link rel="icon" type="image/jpeg" href="../imagens/icone.jpeg">
+    <link href="../css/style.css" rel="stylesheet" />
+    <script defer="" src="../js/app.js"></script>
+    <title>Vasos | Petal House</title>
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">
+        Pular para o conteúdo
+    </a>
+    <div class="announcement">
+        CASA DAS PÉTALAS · A VIDA MAIS BONITA
+    </div>
+    <header class="site-header">
+        <div class="header-inner">
+            <button aria-expanded="false" aria-label="Abrir menu" class="menu-toggle">
+                ☰
+            </button>
+            <a aria-label="Petal House — página inicial" class="brand" href="index.html">
+                <span class="brand-name">
+                    <span class="brand-initial">P</span><span class="brand-etal">ETAL</span>
+                    <span class="brand-etal">HOUS</span><span class="brand-e">E</span>
+                </span>
+                <span class="brand-sub">Floricultura</span>
+            </a>
+            <nav aria-label="Navegação principal" class="main-nav">
+                <a href="index.html">
+                    Início
+                </a>
+                <a href="catalogo-flores.html">
+                    Flores
+                </a>
+                <a href="catalogo-plantas.html">
+                    Plantas
+                </a>
+                <a aria-current="page" href="acessorios.html">
+                    Vasos
+                </a>
+                <a href="sobre.html">
+                    Sobre nós
+                </a>
+                <a href="contato.html">
+                    Contato
+                </a>
+            </nav>
+            <div class="header-actions">
+                <a href="login.html" class="header-icon" aria-label="Login">
+                    Login
+                </a>
+
+                <a href="carrinho.html" class="header-icon" aria-label="Seu carrinho">
+                    <img src="../imagens/carrinho.png" alt="Carrinho" class="cart-icon-img">
+                    <span class="cart-count" data-cart-count="">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <main id="main-content">
+        <section class="page-hero">
+            <p class="eyebrow">
+                PETAL HOUSE · CATÁLOGO
+            </p>
+            <h1>
+                Catálogo de vasos
+            </h1>
+            <p>
+                Peças escolhidas para dar o acabamento perfeito ao seu espaço.
+            </p>
+        </section>
+        <section class="section">
+            <div class="catalog-tools">
+                <p>
+                    Peças selecionadas para trazer beleza ao cotidiano.
+                </p>
+                <label class="sr-only" for="sort-products">
+                    Ordenar produtos
+                </label>
+                <select id="sort-products" onchange="sortProducts(this.value)">
+                    <option value="featured">
+                        Em destaque
+                    </option>
+                    <option value="price-low">
+                        Menor preço
+                    </option>
+                    <option value="price-high">
+                        Maior preço
+                    </option>
+                    <option value="name">
+                        Nome A–Z
+                    </option>
+                </select>
+            </div>
+
+
+            <div class="product-grid" data-product-list="vasos">
+            </div>
+            <p class="center muted spaced">
+                Precisa de ajuda para escolher?
+                <a href="contato.html">
+                    <u>
+                        Fale com a gente.
+                    </u>
+                </a>
+            </p>
+        </section>
+        <script>function sortProducts(mode) { ordenarProdutos(mode); }</script>
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a class="brand" href="index.html">
+                    <span class="brand-name">
+                        <span class="brand-initial">P</span><span class="brand-etal">ETAL</span>
+                        <span class="brand-etal">HOUS</span><span class="brand-e">E</span>
+                    </span>
+                    <span class="brand-sub">Floricultura</span>
+                </a>
+                <p>
+                    Flores e plantas para transformar momentos simples em lembranças bonitas.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h3>
+                    Explore
+                </h3>
+                <a href="catalogo-flores.html">
+                    Catálogo de flores
+                </a>
+                <a href="catalogo-plantas.html">
+                    Plantas
+                </a>
+                <a href="acessorios.html">
+                    Vasos & acessórios
+                </a>
+                <a href="sobre.html">
+                    Nossa história
+                </a>
+            </div>
+            <div class="footer-col">
+                <h3>
+                    Atendimento
+                </h3>
+                <a href="contato.html">
+                    Fale conosco
+                </a>
+                <a href="carrinho.html">
+                    Sua sacola
+                </a>
+                <a href="checkout.html">
+                    Finalizar compra
+                </a>
+                <p>
+                    Seg–Sáb · 9h às 18h
+                </p>
+            </div>
+            <div class="footer-col">
+                <h3>
+                    Newsletter
+                </h3>
+                <p>
+                    Receba novidades e ofertas exclusivas em primeira mão para acompanhar de perto o nosso catálogo.
+                </p>
+                <a href="contato.html">
+                    Entre em contato &rarr;
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>
+                &copy;
+                <span data-year="">
+                </span>
+                Petal House. Feito com carinho.
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>

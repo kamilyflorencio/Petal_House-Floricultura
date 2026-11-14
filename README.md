@@ -4,7 +4,7 @@
 
 ## Sobre o projeto
 
-A **Petal House** é um projeto acadêmico desenvolvido em dupla, com a proposta de criar um site demonstrativo para uma floricultura fictícia especializada na venda de flores, plantas ornamentais, vasos e acessórios.
+A **Petal House** é um projeto acadêmico desenvolvido em dupla, com a proposta de criar um site demonstrativo para uma floricultura fictícia especializada na venda de flores, plantas ornamentais e vasos decorativos.
 
 O projeto foi desenvolvido com o objetivo de aplicar conhecimentos de desenvolvimento web, explorando a criação de interfaces, organização de páginas, identidade visual, usabilidade e funcionalidades interativas.
 
@@ -31,7 +31,7 @@ A proposta é simular a experiência de uma loja virtual, permitindo que os usu�
 - Página inicial com apresentação da marca.
 - Catálogo de flores.
 - Catálogo de plantas.
-- Catálogo de vasos e acessórios.
+- Catálogo de vasos.
 - Página de detalhes dos produtos.
 - Login e cadastro demonstrativos.
 - Carrinho de compras com adição e remoção de produtos.
